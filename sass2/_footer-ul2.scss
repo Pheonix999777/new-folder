@@ -1,0 +1,128 @@
+
+.footer__ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 102px;
+}
+
+.footer__ul-li:not(:last-child){
+    margin-right: 32px;
+}
+
+.footer__ul-li-a{
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px; 
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:  color 0.6s ease;
+}
+
+.footer__ul-li-a:hover{
+    color: #FEFCF7;
+}
+
+.footer__div-icons{
+    margin-left: auto;
+}
+
+.footer__div-icons-svg:not(:first-child){
+    margin-left: 20px;
+}
+
+.footer__div-icons-svg:hover  path{
+   fill:#FDD6BA;
+   transition: 0.6s;
+}
+
+
+@media only screen and (max-width: 1105px){
+    .footer__logo{
+        width: 235px;
+        height: 25px;
+    }
+    
+    .footer__ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 32px;
+    }
+    
+    .footer__ul-li:not(:last-child){
+        margin-right: 32px;
+    }
+    
+    .footer__ul-li-a{
+        color: #83888F;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px; 
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition:  color 0.6s ease;
+    }
+    
+    .footer__div-icons{
+       margin: 0 auto;
+       margin-top: 65px;
+    }
+    
+    .footer__div-icons-svg:not(:first-child){
+        margin-left: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 520px){
+    .footer__logo{
+        width: 216.923px;
+        height: 23.077px;
+        
+    }
+    
+    .footer__ul{
+        display: block;
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 32px;
+    }
+    
+    .footer__ul-li:not(:first-child){
+        margin-top: 24px;
+    }
+    
+    .footer__ul-li:not(:last-child){
+        margin-left: 20px;
+    }
+
+    .footer__ul-li-a{
+        color: #83888F;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px; 
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition:  color 0.6s ease;
+    }
+    
+    .footer__div-icons{
+       margin: 0 auto;
+       margin-top: 65px;
+    }
+    
+    .footer__div-icons-svg:not(:first-child){
+        margin-left: 20px;
+    }
+    
+}

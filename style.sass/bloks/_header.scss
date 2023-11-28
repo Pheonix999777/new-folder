@@ -1,0 +1,44 @@
+
+.header{
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+.header__div{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 980px){
+    .header{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .header__logo{
+        width: 162.309px;
+        height: 17.308px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .header{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .nav{
+        display: none;
+        
+    }
+
+    .header__logo{
+        width: 235px;
+        height: 25px;
+    }
+}

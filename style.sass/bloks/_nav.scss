@@ -1,0 +1,29 @@
+.nav{
+    margin-left: auto;
+}
+
+.nav__ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__ul-li:not(:last-child){
+    margin-right: 33px;
+}
+
+.nav__ul-li-a{
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.6s ease;
+}
+
+.nav__ul-li-a:hover{
+    color: #333D4B;
+}

@@ -1,0 +1,153 @@
+
+.Secondary{
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+
+.Secondary__container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.Secondary__main{
+    display: flex;
+}
+
+.Secondary__head{
+    width: 255px;
+}
+
+.Secondary__wrapper{
+    display: inline-flex;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(133, 137, 143, 0.25);
+}
+
+.Secondary__wrapper2{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(133, 137, 143, 0.25);
+}
+
+.Secondary__wrapper3{
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(133, 137, 143, 0.25);
+    padding-top: 24px;
+}
+
+.Secondary__wrapper-title{
+    color: #0E8784;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    margin: 0;
+    opacity: 0.4;
+}
+
+.Secondary__wrapper-title2{
+    color: #333D4B;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    margin: 0;
+    opacity: 0.4;
+}
+
+.Secondary__wrapper-title3{
+    color: #83888F;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    margin: 0;
+}
+
+.Secondary__wrapper-text{
+    color: #333D4B;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    opacity: 0.4;
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+.Secondary__wrapper-text3{
+    color: #333D4B;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1048px){
+    .Secondary__container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+ 
+}
+
+@media only screen and (max-width: 980px){
+    .Secondary{
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    
+    .Secondary__head{
+        display: none;
+    }
+    
+    .Secondary__container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .Secondary__main{
+        display: block;
+        margin: 0;
+    }
+
+   
+}
+
+@media only screen and (max-width: 520px){
+    .Secondary{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .Secondary__head{
+        display: none;
+    }
+    
+    .Secondary__container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .Secondary__main{
+        display: block;
+        margin: 0;
+    }
+
+   
+}

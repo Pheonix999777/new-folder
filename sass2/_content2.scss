@@ -1,0 +1,231 @@
+
+
+
+
+
+.content{
+    border-radius: 10px;
+    background: #2C343E;
+    margin-top: 155px;
+}
+
+.content__div{
+    max-width: 100%;
+    padding-top: 113px;
+    padding-left: 85px;
+    padding-right: 150px;
+    padding-bottom: 99px;
+
+}
+
+.content__div-bg{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Path\ 2.png);
+    max-width: 760px;
+    height: 2px;
+    background: #FDD6BA;
+}
+
+.content__div-icons{
+    width: 370px;
+    text-align: end;
+}
+
+.content__ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 67px;
+    margin-left: -95px;
+}
+
+.content__ul-li{
+    width: 285px;
+    margin-left: 95px;
+    margin-bottom: 44px;
+}
+
+.content__ul-num{
+    color: #FDD6BA;
+    font-family: 'Fraunces';
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px; 
+    margin: 0;
+
+}
+
+.content__ul-title{
+    display: block;
+    color: #FEFCF7;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px; 
+    margin-top: 38px;
+}
+
+.content__ul-text{
+    color: #FEFCF7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 0;
+    margin-top: 42px;
+}
+
+@media only screen and (max-width: 980px){
+    .content{
+        margin-top: 119px;
+        margin-bottom: 140px;
+    }
+    
+    .content__div{
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .content__div-bg{
+        display: flex;
+        align-items: center;
+        background-image: url(../img/Path\ 2.png);
+        max-width: 760px;
+        height: 2px;
+      
+    }
+    
+    .content__div-icons{
+        width: 370px;
+        text-align: end;
+    }
+    
+    .content__ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 67px;
+        margin-bottom: 64px;
+        
+    }
+    
+    .content__ul-li{
+        max-width: 223px;
+        margin-left: 10px;
+    }
+    
+    .content__ul-num{
+        color: #FDD6BA;
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px; 
+        margin: 0;
+    
+    }
+    
+    .content__ul-title{
+        display: block;
+        color: #FEFCF7;
+        font-family: 'Fraunces';
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-top: 38px;
+    }
+    
+    .content__ul-text{
+        color: #FEFCF7;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px; 
+        margin: 0;
+        margin-top: 39px;
+    }
+
+  
+}
+
+
+@media only screen and (max-width: 520px){
+    .content{
+        margin-top: 120px;
+        margin-bottom: 0;
+    }
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content__div{
+        text-align: center;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .content__div-bg{
+        display: none;
+        align-items: center;
+        background-image: url(../img/Path\ 2.png);
+        max-width: 760px;
+        height: 2px;
+        margin-top: 80px;
+    }
+
+    .content__ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+ 
+      
+    }
+    
+    .content__ul-li{
+        width: 100%;
+        max-width: 300px;
+      
+    }
+    
+    .content__ul-div{
+        text-align: center;
+        
+    }
+
+    .content__ul-num{
+        color: #FDD6BA;
+        font-family: 'Fraunces';
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px; 
+        margin: 0;
+    
+    }
+    
+    .content__ul-title{
+        display: block;
+        color: #FEFCF7;
+        font-family: 'Fraunces';
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 32px; 
+        margin-top: 24px;
+    }
+    
+    .content__ul-text{
+        color: #FEFCF7;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px; 
+        margin: 0;
+        margin-top: 24px;
+    }
+
+}

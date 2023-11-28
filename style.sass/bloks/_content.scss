@@ -1,0 +1,102 @@
+.content{
+    padding-top: 155px;
+    padding-bottom: 188px;
+}
+
+.content__div{
+    max-width: 1045px;
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-bottom: 99px;
+}
+
+.content__div-title{
+    color: #83888F;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px; 
+    margin: 0;
+}
+
+.content__div-bg{
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Path\ 2.png);
+    max-width: 760px;
+    height: 2px;
+    margin-top: 80px;
+}
+
+.content__div-icons{
+    width: 370px;
+    text-align: end;
+}
+
+
+@media only screen and (max-width: 980px){
+    .content{
+        padding-top: 140px;
+    }
+    
+    .content__div{
+        max-width: 1045px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .content__div-title{
+        color: #83888F;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px; 
+        margin: 0;
+    }
+    
+    .content__div-bg{
+        display: flex;
+        align-items: center;
+        background-image: url(../img/Path\ 2.png);
+        max-width: 760px;
+        height: 2px;
+        margin-top: 80px;
+    }
+    
+    .content__div-icons{
+        width: 370px;
+        text-align: end;
+    }
+
+}
+
+@media only screen and (max-width: 520px){
+    .content{
+        padding-top: 120px;
+    }
+    
+    .content__div{
+        text-align: center;
+        max-width: 1045px;
+
+    }
+    
+    .content__div-title{
+        color: #83888F;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px; 
+        margin: 0;
+    }
+    
+    .content__div-bg{
+        display: none;
+        align-items: center;
+        background-image: url(../img/Path\ 2.png);
+        max-width: 760px;
+        height: 2px;
+        margin-top: 80px;
+    }
+
+}

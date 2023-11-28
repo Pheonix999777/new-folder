@@ -1,0 +1,134 @@
+
+.gray__div{
+    border-radius: 10px;
+    background: #2C343E;
+    padding-top: 100px;
+    height: 577px;
+}
+
+.gray__wrapper{
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.gray__wrapper-title{
+    color: #FEFCF7;
+    font-family: 'Fraunces';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px; 
+    margin: 0;
+}
+
+.gray__wrapper-text{
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+    margin-top: 32px;
+    opacity: 0.8;
+}
+
+.gray__main{
+    margin-top: 86px;
+    bottom: -86px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media only screen and (max-width: 980px){
+    .gray__div{
+        padding-top: 56px;
+        border-radius: 10px;
+        height: 573px;
+    }
+
+
+
+    .gray__main{
+        position: relative;
+        bottom: -46px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .gray__wrapper{
+        width: 540px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    
+    .gray__wrapper-title{
+        color: #FEFCF7;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 48px; 
+        margin: 0;
+    }
+    
+    .gray__wrapper-text{
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0;
+        margin-top: 24px;
+        opacity: 0.8;
+    }
+
+}
+
+
+@media only screen and (max-width: 520px){
+    .gray__div{
+        border-radius: 10px;
+        height: 577px;
+    }
+
+    .container{
+        margin: 0 auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .gray__main{
+        position: relative;
+        bottom: -46px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .gray__wrapper{
+        max-width: 279px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 64px;
+    }
+    
+    .gray__wrapper-title{
+        color: #FEFCF7;
+        font-family: 'Fraunces';
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 48px; 
+        margin: 0;
+    }
+    
+    .gray__wrapper-text{
+        color: #FEFCF7;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+        margin-top: 24px;
+        opacity: 0.8;
+    }
+}
